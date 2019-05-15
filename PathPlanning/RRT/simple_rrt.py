@@ -71,7 +71,7 @@ class RRT():
                 continue
 
             self.nodeList.append(newNode)
-            print("nNodelist:", len(self.nodeList))
+            # print("nNodelist:", len(self.nodeList))
 
             # check goal
             dx = newNode.x - self.end.x
